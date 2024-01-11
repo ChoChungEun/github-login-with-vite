@@ -6,7 +6,7 @@
 
 
 # FLOW
-- 로그인 화면 -> 로그인 버튼 클릭 -> 깃헙 로그인 화면으로 이동 -> 로그인 성공 -> 깃헙에서 자동으로 callback URL에 등록한 url 로 이동시킴 -> url 뒤에 쿼리스트으로 ?code=dc10af246c912ce4309d 가 같이옴
+- 로그인 화면 -> 로그인 버튼 클릭 -> 깃헙 로그인 화면으로 이동 -> 로그인 성공 -> 깃헙에서 자동으로 callback URL에 등록한 url 로 이동시킴 -> url 뒤에 쿼리스트으로 ?code=dc10af246c912ce4309d 가 같이옴
 ```
 function App() {
   const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
